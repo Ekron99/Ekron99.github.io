@@ -78,7 +78,7 @@ function setup() {
   Drama is for you, take that L you lose, take that L, you lose
   No need to pretend, she got a little bit of drama with her friends`;
 
-  createElement("div", "Remove all special characters!");
+  createElement("div", "Remove all special characters for a more accuracy.");
   input = createElement("textarea", lyrics);
   input.size(600,100);
   input.input(loadLyrics);
@@ -102,7 +102,7 @@ function loadLyrics() {
 
 function draw() {
   //not need, updates only happen when text changes
-  noLoop();
+  noLoop(); 
 }
 
 function drawMatrix() {
