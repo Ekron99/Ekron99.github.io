@@ -102,6 +102,7 @@ function loadLyrics() {
 
 function draw() {
   //not need, updates only happen when text changes
+  noLoop();
 }
 
 function drawMatrix() {
